@@ -1,8 +1,8 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { FunctionComponent } from "react";
+import logo from "../assets/logo.svg";
+import "./App.css";
 
-function App() {
+export const App: FunctionComponent = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -21,6 +21,4 @@ function App() {
       </header>
     </div>
   );
-}
-
-export default App;
+};
